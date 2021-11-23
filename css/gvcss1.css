@@ -1,0 +1,447 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Bebas+Neue&family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* CSS Document */
+
+
+
+
+/* Navigation */
+.navbar-collapse
+
+.navbar-nav{
+	padding-left:20px!important;
+}
+
+.bg-light{
+background-color: white!important;
+}
+
+.navbar-toggler {
+    color: white!important;
+	border-color: white!important;
+	padding-right:50px;
+  }
+  @media only screen and (max-width: 600px) {
+	.logonav{
+		padding-left: 10px!important;
+	}
+	.navbar-toggler {
+		padding-right:10px!important;
+	}
+  }
+  .logonav{
+	padding-left: 50px;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image:;
+  }
+
+/* End Navigation */
+
+/* Hero Section */
+h1.ondark{
+	color:white;
+	font-weight:800;
+	text-align:center;
+	font-size:48px;
+	padding-top:150px;
+}
+h3.ondark{
+	text-align:center;
+	font-size:24px;
+	color:white;
+	font-weight:400;
+	padding-top:7px;
+	padding-bottom:15px;
+}
+.thin{
+	font-family:roboto;
+	font-weight:100;
+}
+.heroprime{
+	color:#CD3333;	
+	background-color:white;
+	font-weight:800;
+	width:150px;
+	height:41px;
+	margin-right:10px;
+}
+button.heroprime:hover{
+	color:#951A1A;
+}
+.herosecond{
+	color:white;
+	font-weight:800;
+	width:150px;
+	border-width:3px;
+	height:41px;
+}
+button.herosecond:hover{
+	background-color:#D64646;	
+	color:white;
+}
+
+button.inlinebutton{
+	color:white;
+	font-weight:800;
+	width:150px;
+	border-width:3px;
+	height:41px;
+		background-color:#951A1A;
+}
+button.inlinebutton:hover{
+	background-color:#D64646;
+	color:white !important;	
+}
+
+.prime{
+	color:white;	
+	background-color:#CD3333;
+	font-weight:800;
+	width:150px;
+	height:41px;
+	margin-right:10px;
+}
+button.prime:hover{
+	background-color:#951A1A;
+	color:white;
+}
+.secondaryb{
+	color:#951A1A;
+	font-weight:800;
+	width:149px;
+	height:40px;
+	margin-right:10px;
+	border: 3px solid #951A1A !important;
+}
+button.secondaryb:hover{
+	color:#650000!important;
+	background-color:#FCF7F7!important;
+}
+.spacer{
+	height:100px;
+}
+
+/* End Hero */
+
+/* Item Descriptions */
+h2.description{
+	font-weight:800;
+	font-size: 22px;
+	color: black;
+}
+/* End Item Descriptions */
+/* Logo Section */
+.redfill{
+	background-color:#CD3333;
+}
+/* Typography Style Guide Section */
+hr.solid{
+	border-top: 2px solid #EEBFC0;
+}
+.typesec{
+	border: 2px solid #EEBFC0!important;
+	padding-top:60px;
+	padding-bottom:50px;
+	margin:10px;
+	text-align: center;
+}
+.hide{
+	border: 2px solid white !important;
+	padding-top:60px;
+	padding-bottom:50px;
+	margin:10px;
+	text-align: center;
+}
+h5.typedes{
+	font-weight:800;
+	font-size: 16px;
+}
+h6.typedes{
+	font-weight:600;
+	font-size: 12px;
+}
+p.smalldesc{
+	font-size: 12px;
+}
+
+/* <!--Body Typography--> */
+body {
+	font-family: 'manrope', sans-serif;
+	font-size: 16px;
+}
+h1{
+	font-size: 3.052rem;
+	color:#CD3333;
+	font-weight:700;
+}
+h2{
+	font-size: 2.441rem;
+	color:#951A1A;
+	font-weight:700;
+}
+h3{
+	font-size: 1.953rem;
+	color: #5C5C5C;
+	font-weight:700;
+}
+h4{
+	font-size: 1.563rem;
+	color:#393939;
+	font-weight:800;
+}
+p{
+	font-size: 16px;
+	color:black;
+
+}
+h1, h2, h3, h4, h5  {
+	line-height: 1.2;
+}
+p.manrope {
+	color:#353535;
+	font-weight: 500;
+}
+a.manrope {
+	color: #0038FF;
+}
+.bold1{
+	font-weight: 800 !important;
+}
+
+code {
+	color: grey;
+}
+
+/* <!--END Typography --> */
+
+/* <!--Color Section--> */
+p.colors {
+	color:white;
+	text-align: center;
+	font-weight:800;
+	font-size:18px;
+	padding-top:50px;
+}
+.colors{
+	height:150px;
+	margin:10px;
+	align-content: center;
+}
+.rmain{
+	background-color: #CD3333;
+}
+
+.rtext{
+	background-color: #951A1A;
+}
+
+.ghead{
+	background-color: #5C5C5C;
+}
+
+.black{
+	background-color: #000000;
+}
+
+.rlight{
+	background-color: #EFBFBF;
+}
+
+.gsub{
+	background-color: #393939;
+}
+
+/* <!--END Color Section--> */
+
+/* <!--Services--> */
+
+h3.services{
+	color:black;
+	font-size: 30px;
+}
+/* <!--END Services--> */
+
+/* <!--Project Tiles--> */
+a.projtile{
+	text-decoration: none !important;
+}
+h3.projtile:hover{
+	color:#BAB7B7!important;
+}
+
+div.projtile{
+	background-image: url('../imgs/projplacehold.png');
+	text-align:center;
+	height:300px;
+	border: none !important;
+	margin: none !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h3.projtile{
+	color:white;
+	font-size:39px;
+	font-weight:700;
+}
+p.projtile{
+	color:white;
+	font-size:22px;
+	font-weight:400;
+}
+
+.desktiles{
+	color:white;
+}
+
+.fulltiles{
+	color:white;
+}
+
+/* <!--Media q's for hiding tiles--> */
+@media only screen and (max-width: 1300px) {
+.desktiles{
+	display:none;
+}
+}
+@media only screen and (min-width: 992px) {
+	h3.projtile{
+		font-size:28px!important;
+	
+	}
+	p.projtile{
+		font-size:18px!important;
+	}
+	}
+
+@media only screen and (min-width: 1300px) {
+	.fulltiles{
+		display:none;
+	}
+	}
+	@media only screen and (max-width: 576px) {
+		.hshide{
+			display:none;
+		}
+		}
+
+
+
+	
+/* <!--END Project Tiles--> */
+
+/* <!--END Project Tiles--> */
+/* <!--Footer--> */
+h4.foot{
+	font-size:18px;
+	margin-top:8px;
+}
+div.footcontent{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* <!--END Footer--> */
+/* <!--Carousel--> */
+a.cardbutton{
+	padding:10px;
+}
+.carocard{
+	border: 2px solid #EEBFC0!important;
+}
+a.cardbutton{
+	color:#951A1A;
+	font-weight: 600;
+	text-decoration:none;
+	cursor: pointer;
+}
+/* <!--END Carousel--> */
+
+
+
+
+
+
+
+
+.nav-link{
+	color:#650000 !important;
+	padding-left:20px;
+}
+
+.navbar-brand{
+	color:#650000 !important;
+}
+body{
+	font-family:raleway;
+	font-weight:600;
+}
+
+.hcustom{
+
+}
+.bg-dark{
+	background-color:white !important;
+}
+.c-container{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.c-caption{
+	color: #000000;
+}
+
+.text-container{
+	max-width:1000px;
+}
+
+.gvtext {
+	padding-top:20px;
+}
+.footer{
+	background-color: red;
+	height:80px;
+	color:white;
+	text-align:center;
+	font-size:.8rem;
+	padding-top:20px;
+}
+
+.small-width{
+	max-width:1200px;
+}
+
+.card-container{
+	padding-bottom: 20px;
+}
+
+.card-footer-cy{
+	height: 60px;
+}
+
+.btn-primary{
+	background-color:red;
+	color:white;
+	border-color:white;
+}
+
+.accordion-button:not(.collapsed) {
+	color:white;
+	background-color:red;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.125)
+}
+
+
+
+/* <!--  --> */
+
+
+
+

@@ -1,0 +1,1132 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<link rel="icon" href="imgs/FavIcon.ico" type="image/x-icon">
+
+<!-- Required meta tags -->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/gvcss1.css">
+<link rel="stylesheet" href="css/prism.css">
+<!-- GV's Extra script calls-->
+
+<title>Gabe Vespasiano Product Design</title>
+</head>
+
+
+  <body>
+      <!-- NavigationStart -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="logonav" href="../index.html"><img  width="40px" src="imgs/Logo1.svg"></a>
+  </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+  <!-- Nav Links Here -->
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#logo">Logo</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#type">Typography</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#color">Colors</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#compo">Componenets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#template">Page Patterns</a>
+      </li>
+  </ul>
+
+
+        </div>
+      </div>
+    </nav>
+  <!-- End Nav -->
+  <br><br>
+  <div class="container" style="padding-top:50px">
+  <h1>Portfolio Design System</h1>
+    <div style="padding-top:50px">
+  <h2 class="description">About My System</h2>
+  <p>Welcome to the design system for my portfolio. In this system I include guidelines for typography, color, branding elements, page layouts, and components. I’ve included both live, responsive components as well as their codes under my components section. These components are coded in bootstrap and will be used to create consistency throughout the pages of my portfolio. 
+<br><br>
+    I created this design system to help express my personal brand in an interactive form. I will use my site to showcase projects I’ve worked on to potential employers or collaborators. I’d like visitors of the site to immediately gain a sense of my personality and design style when viewing my projects. I believe I am a designer who combines creativity and strategy in modern, clean designs. It’s my hope that this design system reflects these attributes.
+    <br><br>
+    Please use the links in the menu to navigate between sections.
+  </p>
+</div>
+  </div>
+  
+   <!-- Logos Section -->
+   <div class="container" id="logo" style="padding-top:50px">
+    <h2>Logo Usage</h2>
+    <hr class="solid pinkline">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col border typesec">
+         <img height="80px" src="imgs/logo.jpg"></img>
+      </div>
+      <div class="col border typesec redfill">
+        <img height="80px" src="imgs/logo_color.png"></img>
+     </div>
+      <div class="col border typesec">
+        <img height="80px" src="imgs/logo-bw.jpg"></img>
+      </div>
+      <div class="col border typesec">
+        <img height="80px" src="imgs/logo_fav.jpg"></img>
+      </div>
+      <div class="col hide">
+        <p style="padding-top:16px"> </p>
+      </div>
+   </div> 
+   <div class="row">
+    <div class="col typedes">
+      <h5  class="typedes">Color Logo</h5>
+    </div>
+    <div class="col typedes">
+      <h5 class="typedes">Logo on Red BG</h5>
+    </div>
+    <div class="col typedes">
+      <h5 class="typedes">Logo B&W</h5>
+    </div>
+    <div class="col typedes">
+      <h5 class="typedes">Favicon</h5>
+    </div>
+    <div class="col typedes">
+    </div>
+  </div> 
+  
+  </div>
+
+  <!-- End Logos Section -->
+  <!-- Typography Section -->
+    <div class="container" id="type" style="padding-top:50px">
+      <h2>Typography</h2>
+      <hr class="solid pinkline">
+    </div>
+ 
+    <div class="container">
+  <div class="row">
+    <div class="col border typesec">
+       <h1>H1</h1>
+    </div>
+    <div class="col border typesec">
+      <h2 style="padding-top:8px">H2</h2>
+   </div>
+    <div class="col border typesec">
+      <h3 style="padding-top:12px">H3</h3>
+    </div>
+    <div class="col border typesec">
+      <h4 style="padding-top:13px">H4</h4>
+    </div>
+    <div class="col border typesec">
+      <p style="padding-top:16px">Paragraph</p>
+    </div>
+ </div> 
+ <div class="row">
+  <div class="col typedes">
+    <h5  class="typedes">Raleway, XBold</h5>
+    <h6 class="typedes">#CD3333, 3.05 rem</h6>
+     <hr class="solid pinkline">
+     <p class="smalldesc">Main headings for the page and hero sections.
+<br><br>
+      When used above an image, use white. </p>
+  </div>
+  <div class="col typedes">
+    <h5 class="typedes">Raleway, XBold</h5>
+    <h6 class="typedes">#951A1A, 2.441 rem</h6>
+     <hr class="solid pinkline">
+     <p class="smalldesc">Sub headers and project card text. 
+<br><br>
+      When used above an image, use white. </p>
+  </div>
+  <div class="col typedes">
+    <h5 class="typedes">Raleway, XBold</h5>
+    <h6 class="typedes">#5C5C5C, 1.9 rem</h6>
+     <hr class="solid pinkline">
+     <p class="smalldesc">Subsection headers.</p>
+  </div>
+  <div class="col typedes">
+    <h5 class="typedes">Raleway, Black</h5>
+    <h6 class="typedes">#393939, 1.56 rem, all caps.</h6>
+     <hr class="solid pinkline">
+     <p class="smalldesc">Use for mid section explanations. 
+<br><br>
+      Use all caps.</p>
+  </div>
+  <div class="col typedes">
+    <h5 class="typedes">Raleway, Medium</h5>
+    <h6 class="typedes">#000000, 16px base</h6>
+     <hr class="solid pinkline">
+     <p class="smalldesc">Use on all body section copy as well as the details on project cards. </p>
+  </div>
+</div> 
+
+</div>
+    <!-- End Typography Section -->
+
+    <!-- Color Section -->
+    <div class="container" id="color"  style="padding-top:50px">
+      <h2>Colors</h2>
+      <hr class="solid pinkline">
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-2 colors rmain align-self-center">
+         <p class="colors">#CD3333</p> 
+        </div>
+        <div class="col col-lg-2 colors rtext">
+          <p class="colors">#951A1A</p> 
+        </div>
+        <div class="col col-lg-2 colors ghead">
+          <p class="colors">#5C5C5C</p> 
+        </div>
+        <div class="col col-lg-2 colors black">
+          <p class="colors">#000000</p> 
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-lg-2 colors rlight">
+          <p class="colors">#EFBFBF</p> 
+        </div>
+        <div class="col col-lg-2 colors">
+
+        </div>
+        <div class="col col-lg-2 colors gsub">
+          <p class="colors">#393939</p> 
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+
+<!-- Components Start -->
+<div class="container" id="compo" style="padding-top:50px">
+  <h2>Components</h2>
+  <hr class="solid pinkline">
+</div>
+
+<!-- Buttons Start -->
+<div class="container" style="padding-top:50px">
+  <h2 class="description">Buttons</h2>
+  <p>Buttons are to be used to help guide user actions. When on darker backgrounds, the light versions are to be used. As white and red can sometimes have accessibility issues due to low contrast, the hover states for each button use subtle changes that maintain sufficient contrast.</p>
+<br>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6"><p style="text-align:center; padding-top: 20px;">Use as primary CTA buttons.</p>
+        <div class="col text-center" style="padding-top: 20px; padding-bottom: 50px;">
+          
+          <button type="button" class="btn prime rounded-800">Primary</button>
+          <button type="button" class="btn secondaryb rounded-100 border-white">Secondary</button>
+          </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 rtext"><p style="text-align:center; color:white; padding-top: 20px;">Alternate styles to be used on dark backgrounds. </p>
+        <div class="col text-center" style="padding-top: 20px; padding-bottom: 50px;">
+          <button type="button" class="btn heroprime rounded-800">Primary</button>
+          <button type="button" class="btn herosecond rounded-100 border-white">Secondary</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container">
+    <h2 class="description">Code</h2>
+    <div class="row">
+      <div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  /* Main CTA Button */
+  .prime{
+    color:white;	
+    background-color:#CD3333;
+    font-weight:800;
+    width:150px;
+    height:41px;
+    margin-right:10px;
+  }
+  button.prime:hover{
+    background-color:#951A1A;
+    color:white;
+  }
+  /* Secondary CTA Button */
+  .secondaryb{
+    color:#951A1A;
+    font-weight:800;
+    width:149px;
+    height:40px;
+    margin-right:10px;
+    border: 3px solid #951A1A !important;
+  }
+  button.secondaryb:hover{
+    color:#650000!important;
+    background-color:#FCF7F7!important;
+  }
+</code>
+</pre>   
+</div>
+      <div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  /* Main Button on Red */
+  .heroprime{
+    color:#CD3333;	
+    background-color:white;
+    font-weight:800;
+    width:150px;
+    height:41px;
+    margin-right:10px;
+  }
+  button.heroprime:hover{
+    color:#951A1A;
+  }
+  /* Secondary Button on Red */
+  .herosecond{
+    color:white;
+    font-weight:800;
+    width:150px;
+    border-width:3px;
+    height:41px;
+  }
+  button.herosecond:hover{
+    background-color:#D64646;	
+    color:white;
+  }
+</code>
+</pre>   
+</div>
+
+</div>
+
+
+<!-- Buttons End -->
+   <!-- Hero Section -->
+  <div class="container" style="padding-top:50px">
+  <h2 class="description">Hero Sections</h2>
+  <p>Use design image from relevant project for background images. When selecting background images it is key to use dark images, or overlays with enough contrast for the text and buttons to be legible by all users. </p>
+</div>
+<container-fluid class="herosection">
+  <div class="row" 
+  style="background:transparent url('imgs/hero1.png') no-repeat center center /cover">
+  <h1 class="ondark">Gabriel Vespasiano</h1>
+  <h3 class="ondark"> Product Designer MA <span class="thin">/</span> MS </h3>
+  <div class="col text-center">
+  <button type="button" class="btn heroprime rounded-800">Primary</button>
+  <button type="button" class="btn herosecond rounded-100 border-white">Secondary</button>
+  </div>
+  <div class="spacer"></div>
+  </div>
+</container-fluid>
+
+
+
+<div class="container">
+  <h2 class="description" style="padding-top:20px;">Code</h2>
+  <div class="row">
+    <div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  &lt;div class="container-fluid herosection">
+  &lt;div class="row" 
+  &lt;style="background:transparent url('imgs/hero1.png') no-repeat center center /cover">
+  &lt;h1 class="ondark">Gabriel Vespasiano</h1>
+  &lt;h3 class="ondark"> Product Designer MA <span class="thin">/</span> MS </h3>
+  &lt;div class="col text-center">
+  &lt;button type="button" class="btn heroprime rounded-800">Primary</button>
+  &lt;button type="button" class="btn herosecond rounded-100 border-white">Secondary</button>
+  &lt;/div>
+  &lt;div class="spacer">
+  &lt;/div>
+  &lt;/div>
+</code>
+</pre>   
+</div>
+    <div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  /* Hero Section */
+  h1.ondark{
+    color:white;
+    font-weight:800;
+    text-align:center;
+    font-size:48px;
+    padding-top:90px;
+  }
+  h3.ondark{
+    text-align:center;
+    font-size:24px;
+    color:white;
+    font-weight:400;
+    padding-top:7px;
+    padding-bottom:15px;
+  }
+  .thin{
+    font-family:roboto;
+    font-weight:100;
+  }
+</code>
+</pre>   
+</div>
+
+</div>
+
+
+
+
+
+   <!-- End Hero Section -->
+
+   <!-- Services Section -->
+<div class="container" style="padding-top:50px; padding-bottom:20px">
+  <h2 class="description">Services Sections</h2>
+  <p>Use as sub sections within home page. These will be full page for mobile, half page for tablet, and full page for desktop. There should be no accessibility issues with these sections. </p>
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-4">
+    <h3 class="services">Service #1</h3>
+    <p class="services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4">
+    <h3 class="services">Service #2</h3>
+    <p class="services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4">
+    <h3 class="services">Service #3</h3>
+    <p class="services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
+  </div>
+</div></div>
+
+<div class="container">
+  <h2 class="description" style="padding-top:20px;">Code</h2>
+  <div class="row">
+    <div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  &lt;div class="container">
+  &lt;div class="row">
+  &lt;div class="col-sm-12 col-md-6 col-lg-4">
+  &lt;h3 class="services">Service #1</h3>
+  &lt;p class="services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
+  &lt;/div>
+  &lt;div class="col-sm-12 col-md-6 col-lg-4">
+  &lt;h3 class="services">Service #2</h3>
+  &lt;p class="services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
+  &lt;/div>
+  &lt;div class="col-sm-12 col-md-6 col-lg-4">
+  &lt;h3 class="services">Service #3</h3>
+  &lt;p class="services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
+  &lt;div>
+  &lt;div>
+</code>
+</pre>   
+</div>
+    <div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  /* Services Section */
+  h3.services{
+    color:black;
+    font-size: 30px;
+  }
+</code>
+</pre>   
+</div>
+
+</div>
+
+
+   <!-- End Services Section -->
+   <div class="container" style="padding-top:20px"><hr class="solid pinkline"></div>
+  </div> </div> </div>
+  
+   <!-- Project Tiles -->
+   <div class="container" style="padding-top:50px">
+    <h2 class="description">Project Tiles</h2>
+    <p style="padding-bottom:30px">Use for project links on homepage. Replace background image with project image, use same as header. Include no padding between items, span the full length of the page. There are actually two rows used to make this component, one is visibe only to desktops and uses 4 columns inside of page the container to avoid overwhelming on larger screens.<br><br>
+    As these will be text on top of images, it will be key to either use a dark enough overlay or apply a dark filter that provides enough contrast to avoid any accessibility issues. </p>
+  </div> </div> </div> </div>
+   <!-- Mobile/Tablet -->
+  <div class="w-100 fulltiles">
+    <div class="row">
+      <div class="projtile col-sm-12 col-md-6">
+        <div>
+          <h3 class="projtile">Title</h3>
+          <p class="projtile">Lorem ipsu</p> 
+        </div>
+      </div>
+      <div class="projtile col-sm-12 col-md-6">
+        <div>
+        <h3 class="projtile">Title</h3>
+        <p class="projtile">Lorem ipsu</p> 
+      </div>
+    </div>
+    <div class="projtile col-sm-12 col-md-6">
+      <div>
+      <h3 class="projtile">Title</h3>
+      <p class="projtile">Lorem ipsu</p> 
+      </div>
+    </div>
+    <div class="projtile col-sm-12 col-md-6">
+      <div>
+      <h3 class="projtile">Title</h3>
+      <p class="projtile">Lorem ipsu</p> 
+    </div>
+    </div>
+    <div class="projtile col-sm-12 col-md-6">
+      <div>
+      <h3 class="projtile">Title</h3>
+      <p class="projtile">Lorem ipsu</p> 
+      </div>
+    </div>
+    <div class="projtile col-sm-12 col-md-6">
+      <div>
+      <h3 class="projtile">Title</h3>
+      <p class="projtile">Lorem ipsu</p> 
+    </div>
+    </div>
+   </div>
+  </div>
+   <!-- Desktop -->
+  <div class="container desktiles">
+    <div class="row">
+      <div class="projtile col-4">
+        <div>
+          <h3 class="align-middle projtile">Title</h3>
+          <p class="projtile">Lorem ipsu</p> 
+        </div>
+      </div>
+     
+      <div class="projtile col-4">
+        <div>
+        <h3 class="projtile">Title</h3>
+        <p class="projtile">Lorem ipsu</p> 
+      </div>
+    </div>
+    <div class="projtile col-4">
+      <div>
+      <h3 class="projtile">Title</h3>
+      <p class="projtile">Lorem ipsu</p> 
+    </div>
+    </div>
+    <div class="projtile col-4">
+      <div>
+      <h3 class="projtile">Title</h3>
+      <p class="projtile">Lorem ipsu</p> 
+    </div>
+    </div>
+    <div class="projtile col-4">
+      <div>
+      <h3 class="projtile">Title</h3>
+      <p class="projtile">Lorem ipsu</p> 
+    </div>
+    </div>
+    <div class="projtile col-4">
+      <div>
+      <h3 class="projtile">Title</h3>
+      <p class="projtile">Lorem ipsu</p> 
+      </div>
+    </div>
+   </div>
+  </div>
+</div> </div> </div> </div>
+  <div class="container">
+    <h2 class="description" style="padding-top:20px;">Code</h2>
+    <div class="row">
+      <div class="col-sm-6">
+  <pre style="height:300px;">
+  <code class="language-markup">
+    &lt;div class="fluid fulltiles">
+      &lt;div class="row">
+        &lt;div class="projtile col-sm-12 col-md-6">
+          &lt;div>
+            &lt;h3 class="projtile">Title</h3>
+            &lt;p class="projtile">Lorem ipsu</p> 
+          &lt;/div>
+        &lt;/div>
+        &lt;div class="projtile col-sm-12 col-md-6">
+          &lt;div>
+          &lt;h3 class="projtile">Title</h3>
+          &lt;p class="projtile">Lorem ipsu</p> 
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="projtile col-sm-12 col-md-6">
+        &lt;div>
+        &lt;h3 class="projtile">Title</h3>
+        &lt;p class="projtile">Lorem ipsu</p> 
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="projtile col-sm-12 col-md-6">
+        &lt;div>
+        &lt;h3 class="projtile">Title</h3>
+        &lt;p class="projtile">Lorem ipsu</p> 
+      &lt;/div>
+      &lt;/div>
+      &lt;div class="projtile col-sm-12 col-md-6">
+        &lt;div>
+        &lt;h3 class="projtile">Title</h3>
+        &lt;p class="projtile">Lorem ipsu</p> 
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="projtile col-sm-12 col-md-6">
+        &lt;div>
+        &lt;h3 class="projtile">Title</h3>
+        &lt;p class="projtile">Lorem ipsu</p> 
+      &lt;/div>
+      &lt;/div>
+     &lt;/div>
+    &lt;/div>
+     <!-- Desktop -->
+    &lt;div class="container desktiles">
+      &lt;div class="row">
+        &lt;div class="projtile col-4">
+          &lt;div>
+            &lt;h3 class="align-middle projtile">Title</h3>
+            &lt;p class="projtile">Lorem ipsu</p> 
+          &lt;/div>
+        &lt;/div>
+       
+        &lt;div class="projtile col-4">
+          &lt;div>
+          &lt;h3 class="projtile">Title</h3>
+          &lt;p class="projtile">Lorem ipsu</p> 
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="projtile col-4">
+        &lt;div>
+        &lt;h3 class="projtile">Title</h3>
+        &lt;p class="projtile">Lorem ipsu</p> 
+      &lt;/div>
+      &lt;/div>
+      &lt;div class="projtile col-4">
+        &lt;div>
+        &lt;h3 class="projtile">Title</h3>
+        &lt;p class="projtile">Lorem ipsu</p> 
+      &lt;/div>
+      &lt;/div>
+      &lt;div class="projtile col-4">
+        &lt;div>
+        &lt;h3 class="projtile">Title</h3>
+        &lt;p class="projtile">Lorem ipsu</p> 
+      &lt;/div>
+      &lt;/div>
+      &lt;div class="projtile col-4">
+        &lt;div>
+        &lt;h3 class="projtile">Title</h3>
+        &lt;p class="projtile">Lorem ipsu</p> 
+        &lt;/div>
+      &lt;/div>
+     &lt;/div>
+    &lt;/div>
+  &lt;/div>
+    &lt;div class="container">
+      &lt;h2 class="description" style="padding-top:20px;">Code</h2>
+      &lt;div class="row">
+        &lt;div class="col-sm-6">
+    &lt;pre style="height:300px;">
+    &lt;code class="language-markup">
+
+    
+  </code>
+  </pre>   
+  </div>
+      <div class="col-sm-6">
+  <pre style="height:300px;">
+  <code class="language-markup">
+    /* <!--Project Tiles--> */
+    div.projtile{
+      background-image: url('../imgs/projplacehold.png');
+      text-align:center;
+      height:300px;
+      border: none !important;
+      margin: none !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h3.projtile{
+      color:white;
+      font-size:39px;
+    
+    }
+    p.projtile{
+      color:white;
+      font-size:22px;
+    }
+    
+    .desktiles{
+      color:white;
+    }
+    
+    .fulltiles{
+      color:white;
+    }
+    /* <!--Media q's for hiding tiles--> */
+    @media only screen and (max-width: 992px) {
+    .desktiles{
+      display:none;
+    }
+    }
+    @media only screen and (min-width: 992px) {
+      .fulltiles{
+        display:none;
+      }
+      }
+    /* <!--END Project Tiles--> */
+    
+
+  </code>
+  </pre>   
+  </div>
+  
+  </div>
+ </div> </div> </div>
+
+  
+  <div class="container" style="padding-top:50px"></div>
+</div>
+   <!-- END Project Tiles -->
+   <div class="container"><hr class="solid pinkline"></div>
+   
+
+      <!-- Footer Section -->
+   <div class="container" style="padding-top:50px; padding-bottom:20px;">
+    <h2 class="description">Footer</h2>
+    <p style="padding-bottom:30px">
+      Span full length of the page. Place contact links to the right side of page.</p>
+  </div> </div>
+<div class="container-fluid">
+  <hr class="solid pinkline">
+</div>
+
+<div class="container">
+  <div class="row justify-content-end footcontent">
+    <div class="col-2 justify-content-end"><h4 class="foot">Get In Touch:</h4></div>
+    <div class="col-1"><a href="#"><img src="imgs/Link.png" width="24px"></a></div>
+    <div class="col-1"><a href="#"><img src="imgs/mail.png" width="30px"></a></div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h2 class="description" style="padding-top:20px;">Code</h2>
+  <div class="row">
+    <div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  &lt;div class="container" style="padding-top:50px; padding-bottom:20px;">
+    &lt;h2 class="description">Footer</h2>
+    &lt;p style="padding-bottom:30px">
+      Span full length of the page. Place contact links to left side of page.</p>
+  &lt;/div> 
+  &lt;/div>
+&lt;div class="container-fluid">
+  &lt;hr class="solid pinkline">
+&lt;/div>
+
+&lt;div class="container">
+  &lt;div class="row justify-content-end footcontent">
+    &lt;div class="col-2 justify-content-end">
+    &lt;h4 class="foot">Get In Touch:</h4>
+    &lt;/div>
+    &lt;div class="col-1"><a href="#">
+      &lt;img src="imgs/Link.png" width="24px">
+      &lt;/a>
+      &lt;/div>
+    &lt;div class="col-1"><a href="#">
+      &lt;img src="imgs/mail.png" width="30px">
+      &lt;/a>&lt;</a>
+      &lt;/div>
+  &lt;/div>
+</code>
+</pre>   
+</div>
+
+<div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  h4.foot{
+    font-size:18px;
+    margin-top:8px;
+  }
+  div.footcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</code>
+</pre>   
+</div>
+</div>
+<!-- END Footer Section -->
+
+<!-- Carousel Section -->
+<div class="container" style="padding-top:50px; padding-bottom:20px;">
+  <h2 class="description">Carousels</h2>
+  <p style="padding-bottom:30px">
+    Span full length of the page. Place contact links to left side of page.
+  <br><br>
+    I've based this componenet off of the base example from bootstrap, but I've created controls underneath the carousel. These links allow the user to know what images they can find within the carousel instead of the base, unlabeled bars. I've kept the aria-current and aria-labels for accessibility purposes. 
+  </p>
+</div>
+
+<div class="container border carocard">
+<div id="caroidgoeshere" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="height:300px;">
+      <h4 style="padding-top: 10px;">Desktop</h4>
+      <img src="imgs/projplacehold.png">
+    </div>
+    <div class="carousel-item" style="height:300px;">
+      <h4 style="padding-top: 10px;">Tablet</h4>
+      <img src="imgs/projplacehold.png">
+    </div>
+    <div class="carousel-item" style="height:300px;">
+      <h4 style="padding-top: 10px;">Mobile</h4>
+      <img src="imgs/projplacehold.png">
+    </div>
+    <div class="carousel-item" style="height:300px;">
+      <h4 style="padding-top: 10px;">Desktop - Grid</h4>
+      <img src="imgs/projplacehold.png">
+    </div>
+    <div class="carousel-item" style="height:300px;">
+      <h4 style="padding-top: 10px;">Tablet - Grid</h4>
+      <img src="imgs/projplacehold.png">
+    </div>
+    <div class="carousel-item" style="height:300px;">
+      <h4 style="padding-top: 10px;">Mobile - Grid</h4>
+      <img src="imgs/projplacehold.png">
+    </div>
+  </div>
+</div>
+</div>
+<!-- GV's new data targets -->
+<div style="padding-top:10px; text-align:center;">
+<a class="cardbutton" data-bs-target="#caroidgoeshere" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Card One</a>
+<a class="cardbutton" data-bs-target="#caroidgoeshere" data-bs-slide-to="1">Card Two</a>
+<a class="cardbutton" data-bs-target="#caroidgoeshere" data-bs-slide-to="2">Card Three</a>
+</div>
+</div>
+<!-- END new data targets -->
+<div class="container">
+  <h2 class="description" style="padding-top:20px;">Code</h2>
+  <div class="row">
+    <div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  
+  &lt;div class="container border carocard">
+  &lt;div id="caroidgoeshere" class="carousel slide" data-bs-ride="carousel">
+    &lt;div class="carousel-inner">
+      &lt;div class="carousel-item active" style="height:300px;">
+        &lt;h4 style="padding-top: 10px;">Desktop</h4>
+        &lt;img src="imgs/projplacehold.png">
+      &lt;/div>
+      &lt;div class="carousel-item" style="height:300px;">
+        &lt;h4 style="padding-top: 10px;">Tablet</h4>
+        &lt;img src="imgs/projplacehold.png">
+      &lt;/div>
+      &lt;div class="carousel-item" style="height:300px;">
+        &lt;h4 style="padding-top: 10px;">Mobile</h4>
+        &lt;img src="imgs/projplacehold.png">
+      &lt;/div>
+      &lt;div class="carousel-item" style="height:300px;">
+        &lt;h4 style="padding-top: 10px;">Desktop - Grid</h4>
+        &lt;img src="imgs/projplacehold.png">
+      &lt;/div>
+      &lt;div class="carousel-item" style="height:300px;">
+        &lt;h4 style="padding-top: 10px;">Tablet - Grid</h4>
+        &lt;img src="imgs/projplacehold.png">
+      &lt;/div>
+      &lt;div class="carousel-item" style="height:300px;">
+        &lt;h4 style="padding-top: 10px;">Mobile - Grid</h4>
+        &lt;img src="imgs/projplacehold.png">
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;/div>
+  <!-- GV's new data targets -->
+  &lt;div style="padding-top:10px; text-align:center;">
+  &lt;a class="cardbutton" data-bs-target="#caroidgoeshere" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Card One</a>
+  &lt;a class="cardbutton" data-bs-target="#caroidgoeshere" data-bs-slide-to="1">Card Two</a>
+  &lt;a class="cardbutton" data-bs-target="#caroidgoeshere" data-bs-slide-to="2">Card Three</a>
+  &lt;/div>
+  &lt;/div>
+
+</code>
+</pre>   
+</div>
+
+<div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  a.cardbutton{
+    padding:10px;
+  }
+  .carocard{
+    border: 2px solid #EEBFC0!important;
+  }
+  a.cardbutton{
+    color:#951A1A;
+    font-weight: 600;
+    text-decoration:none;
+    cursor: pointer;
+  }
+</code>
+</pre>   
+</div>
+</div>
+
+
+
+
+<div class="container" style="padding-top:30px;"></div>><hr class="solid pinkline"></div></div>
+
+<!-- END Carousel -->
+
+
+
+
+<!-- 50/50 Section -->
+<div class="container" style="padding-top:30px; padding-bottom:20px;">
+  <h2 class="description" style="padding-bottom:30px">50/50 Image and Text</h2>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <h3 class="subsec">
+        Subsection With Image
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <img class="img-fluid" style="max-width: 100%; and height: auto;" src="imgs/placeholder2.png">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <h2 class="description" style="padding-top:20px;">Code</h2>
+  <div class="row">
+    <div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  &lt;div class="container" style="padding-top:50px; padding-bottom:20px;">
+    &lt;h2 class="description">Footer</h2>
+    &lt;p style="padding-bottom:30px">
+      Span full length of the page. Place contact links to left side of page.</p>
+  &lt;/div> 
+  &lt;/div>
+&lt;div class="container-fluid">
+  &lt;hr class="solid pinkline">
+&lt;/div>
+
+&lt;div class="container">
+  &lt;div class="row justify-content-end footcontent">
+    &lt;div class="col-2 justify-content-end">
+    &lt;h4 class="foot">Get In Touch:</h4>
+    &lt;/div>
+    &lt;div class="col-1"><a href="#">
+      &lt;img src="imgs/Link.png" width="24px">
+      &lt;/a>
+      &lt;/div>
+    &lt;div class="col-1"><a href="#">
+      &lt;img src="imgs/mail.png" width="30px">
+      &lt;/a>&lt;</a>
+      &lt;/div>
+  &lt;/div>
+</code>
+</pre>   
+</div>
+
+<div class="col-sm-6">
+<pre style="height:300px;">
+<code class="language-markup">
+  h4.foot{
+    font-size:18px;
+    margin-top:8px;
+  }
+  div.footcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</code>
+</pre>   
+</div>
+</div>
+
+<!-- END 50/50 -->
+
+<div class="container" style="padding-top:30px;"></div>><hr class="solid pinkline"></div></div>
+
+<!-- Image Subsection -->
+<div class="container" style="padding-top:30px; padding-bottom:20px;">
+  <h2 class="description" style="padding-bottom:30px">Full Width Image Section</h2>
+</div>
+
+<div class="container" style="padding-top:20px; padding-bottom:20px;">
+<h3 class="subsec">
+  Subsection With Image
+</h3>
+<img class="img-fluid" style="max-width: 100%; and height: auto;" src="imgs/placeholder3.png">
+</div>
+
+
+
+<div class="container">
+  <h2 class="description" style="padding-top:20px;">Code</h2>
+  <div class="row">
+    <div class="col-sm-12">
+<pre style="height:300px;">
+<code class="language-markup">
+
+  &lt;div class="container" style="padding-top:20px; padding-bottom:20px;">
+    &lt;h3 class="subsec">
+      Subsection With Image
+    &lt;/h3>
+    &lt;img class="img-fluid" style="max-width: 100%; and height: auto;" src="imgs/placeholder3.png">
+    &lt;/div>
+</code>
+</pre>   
+</div>
+
+<!-- END Image Subsection -->
+
+<!-- Patterns Start -->
+<div class="container" id="template" style="padding-top:50px">
+  <h2>Page Patterns</h2>
+  <hr class="solid pinkline">
+</div>
+
+<!-- Home Page Carousel Section -->
+<div class="container" style="padding-top:50px; padding-bottom:20px;">
+  <h2 class="description">Home Page Layout</h2>
+  <p style="padding-bottom:30px">
+    Span full length of the page. Place contact links to left side of page.</p>
+</div>
+
+<div class="container border carocard">
+<div id="homepagecaro" class="carousel slide" data-interval="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h4 style="padding-top: 10px;">Desktop</h4>
+      <img src="imgs/Web-Home.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Tablet</h4>
+      <img src="imgs/iPad-Home.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Mobile</h4>
+      <img src="imgs/iPhone-Home.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Desktop - Grid</h4>
+      <img src="imgs/Web-Homeg.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Tablet - Grid</h4>
+      <img src="imgs/iPad-Homeg.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Mobile - Grid</h4>
+      <img src="imgs/iPhone-Homeg.png" class="img-fluid">
+    </div>
+  </div>
+</div>
+</div>
+<!-- GV's new data targets -->
+<div style="padding-top:10px; text-align:center;">
+  <a class="cardbutton" data-bs-target="#homepagecaro" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Desktop</a>
+  <a class="cardbutton" data-bs-target="#homepagecaro" data-bs-slide-to="1">Tablet</a>
+  <a class="cardbutton" data-bs-target="#homepagecaro" data-bs-slide-to="2">Mobile</a>
+  <a class="cardbutton" data-bs-target="#homepagecaro" data-bs-slide-to="3">Desktop: Grid</a>
+  <a class="cardbutton" data-bs-target="#homepagecaro" data-bs-slide-to="4">Mobile: Grid</a>
+  <a class="cardbutton" data-bs-target="#homepagecaro" data-bs-slide-to="5">Tablet: Grid</a>
+</div>
+</div>
+
+
+<!-- Portfolio Carousel Section -->
+<div class="container" style="padding-top:50px; padding-bottom:20px;">
+  <h2 class="description">Portfolio Page Layout</h2>
+  <p style="padding-bottom:30px">
+    Span full length of the page. Place contact links to left side of page.</p>
+</div>
+
+<div class="container border carocard">
+<div id="portpagecaro" class="carousel slide" data-interval="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h4 style="padding-top: 10px;">Desktop</h4>
+      <img src="imgs/Desktop-SubPage.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Tablet</h4>
+      <img src="imgs/iPad-SubPage.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Mobile</h4>
+      <img src="imgs/Mobile-SubPage.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Desktop - Grid</h4>
+      <img src="imgs/Web-SubPageg.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Tablet - Grid</h4>
+      <img src="imgs/iPad-SubPageg.png" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <h4 style="padding-top: 10px;">Mobile - Grid</h4>
+      <img src="imgs/Mobile-SubPageg.png" class="img-fluid">
+    </div>
+  </div>
+</div>
+</div>
+<!-- GV's new data targets -->
+<div style="padding-top:10px; text-align:center;">
+  <a class="cardbutton" data-bs-target="#portpagecaro" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Desktop</a>
+  <a class="cardbutton" data-bs-target="#portpagecaro" data-bs-slide-to="1">Tablet</a>
+  <a class="cardbutton" data-bs-target="#portpagecaro" data-bs-slide-to="2">Mobile</a>
+  <a class="cardbutton" data-bs-target="#portpagecaro" data-bs-slide-to="3">Desktop: Grid</a>
+  <a class="cardbutton" data-bs-target="#portpagecaro" data-bs-slide-to="4">Mobile: Grid</a>
+  <a class="cardbutton" data-bs-target="#portpagecaro" data-bs-slide-to="5">Tablet: Grid</a>
+</div>
+</div>
+
+
+<br><br><br><br>
+
+<!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+    <script src="js/prism.js"></script>
+  </body>
+</html>
